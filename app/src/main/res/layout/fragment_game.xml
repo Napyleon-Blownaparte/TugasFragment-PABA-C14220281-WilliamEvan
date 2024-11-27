@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnCard1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\?"
+            app:layout_constraintBottom_toTopOf="@+id/btnCard3"
+            app:layout_constraintEnd_toStartOf="@+id/btnCard2"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <Button
+            android:id="@+id/btnCard2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\?"
+            app:layout_constraintBottom_toTopOf="@+id/btnCard4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btnCard1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <Button
+            android:id="@+id/btnCard3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\?"
+            app:layout_constraintBottom_toTopOf="@+id/btnCard5"
+            app:layout_constraintEnd_toStartOf="@+id/btnCard4"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnCard1"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <Button
+            android:id="@+id/btnCard4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\?"
+            app:layout_constraintBottom_toTopOf="@+id/btnCard6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btnCard3"
+            app:layout_constraintTop_toBottomOf="@+id/btnCard2"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <Button
+            android:id="@+id/btnCard5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\?"
+            app:layout_constraintBottom_toTopOf="@+id/btnCard7"
+            app:layout_constraintEnd_toStartOf="@+id/btnCard6"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnCard3"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <Button
+            android:id="@+id/btnCard6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\?"
+            app:layout_constraintBottom_toTopOf="@+id/btnCard8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btnCard5"
+            app:layout_constraintTop_toBottomOf="@+id/btnCard4"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <Button
+            android:id="@+id/btnCard7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\?"
+            app:layout_constraintBottom_toTopOf="@+id/btnCard9"
+            app:layout_constraintEnd_toStartOf="@+id/btnCard8"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnCard5"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <Button
+            android:id="@+id/btnCard8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\?"
+            app:layout_constraintBottom_toTopOf="@+id/btnCard10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btnCard7"
+            app:layout_constraintTop_toBottomOf="@+id/btnCard6"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <Button
+            android:id="@+id/btnCard9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\?"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btnCard10"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnCard7"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <Button
+            android:id="@+id/btnCard10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\?"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btnCard9"
+            app:layout_constraintTop_toBottomOf="@+id/btnCard8"
+            app:layout_constraintVertical_bias="0.5" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
